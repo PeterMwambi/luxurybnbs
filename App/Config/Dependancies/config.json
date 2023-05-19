@@ -1,0 +1,70 @@
+{
+    "dependancies": {
+        "config": "app/config/dependancies/config.json",
+        "namespaces": "app/config/dependancies/namespaces.json"
+    },
+    "database": {
+        "database-connection": "app/config/database/database-connection.json"
+    },
+    "routes": {
+        "routes": "app/config/routes/routes.json",
+        "route-prefix": "app/config/routes/route-prefix.json"
+    },
+    "forms": {
+        "register": "app/config/forms/register.json",
+        "settings": "app/config/forms/settings.json",
+        "data": "app/config/forms/data.json"
+    },
+    "rules": {
+        "staff-registration": {
+            "step-1": "app/config/rules/staff-registration/step1-rules.json",
+            "step-2": "app/config/rules/staff-registration/step2-rules.json"
+        },
+        "staff-login": {
+            "step-1": "app/config/rules/staff-login/step1-rules.json"
+        },
+        "client-registration": {
+            "step-1": "app/config/rules/client-registration/step1-rules.json",
+            "step-2": "app/config/rules/client-registration/step2-rules.json"
+        },
+        "client-login": {
+            "step-1": "app/config/rules/client-login/step1-rules.json"
+        },
+        "room-registration": {
+            "step-1": "app/config/rules/room-registration/step1-rules.json",
+            "step-2": "app/config/rules/room-registration/step2-rules.json"
+        },
+        "client-booking": {
+            "step-1": "app/config/rules/client-booking/step1-rules.json"
+        },
+        "client-payment": {
+            "step-1": "app/config/rules/client-payment/step1-rules.json"
+        }
+    },
+    "errors": {
+        "staff-registration": {
+            "step-1": "app/config/errors/staff-registration/step1-errors.json",
+            "step-2": "app/config/errors/staff-registration/step2-errors.json"
+        },
+        "staff-login": {
+            "step-1": "app/config/errors/staff-login/step1-errors.json"
+        },
+        "client-registration": {
+            "step-1": "app/config/errors/client-registration/step1-errors.json",
+            "step-2": "app/config/errors/client-registration/step2-errors.json"
+        },
+        "client-login": {
+            "step-1": "app/config/errors/client-login/step1-errors.json"
+        },
+        "room-registration": {
+            "step-1": "app/config/errors/room-registration/step1-errors.json",
+            "step-2": "app/config/errors/room-registration/step2-errors.json"
+        },
+        "client-booking": {
+            "step-1": "app/config/errors/client-booking/step1-errors.json"
+        },
+        "client-payment": {
+            "step-1": "app/config/errors/client-payment/step1-errors.json"
+        }
+    }
+}

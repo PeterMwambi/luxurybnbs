@@ -1,0 +1,67 @@
+{
+    "staff-registration-form-step-1": [
+        "firstname",
+        "lastname",
+        "gender",
+        "date-of-birth",
+        "age",
+        "nationality",
+        "national-id",
+        "phone-number",
+        "email"
+    ],
+    "staff-registration-form-step-2": [
+        "username",
+        "role",
+        "auth-level",
+        "password",
+        "confirm-password"
+    ],
+    "staff-login-form": [
+        "username",
+        "password"
+    ],
+    "client-registration-form-step-1": [
+        "firstname",
+        "lastname",
+        "gender",
+        "date-of-birth",
+        "age",
+        "nationality",
+        "national-id",
+        "phone-number",
+        "email"
+    ],
+    "client-registration-form-step-2": [
+        "username",
+        "password",
+        "confirm-password"
+    ],
+    "client-login-form": [
+        "username",
+        "password"
+    ],
+    "room-registration-form-step-1": [
+        "name",
+        "type",
+        "number",
+        "price",
+        "status",
+        "features",
+        "description"
+    ],
+    "room-registration-form-step-2": [
+        "pictures"
+    ],
+    "client-booking-form": [
+        "expected-checkin-date",
+        "expected-checkout-date",
+        "no-of-people"
+    ],
+    "client-payment-form": [
+        "amount",
+        "mode",
+        "transaction-code",
+        "type"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "storage": "Models\\Core\\App\\Cache\\Storage",
+    "register-staff": "Models\\Core\\App\\Database\\Queries\\Create\\Staff",
+    "login-staff": "Models\\Core\\App\\Database\\Queries\\Read\\Staff",
+    "register-client": "Models\\Core\\App\\Database\\Queries\\Create\\Client",
+    "login-client": "Models\\Core\\App\\Database\\Queries\\Read\\Client",
+    "register-room": "Models\\Core\\App\\Database\\Queries\\Create\\Room"
+}

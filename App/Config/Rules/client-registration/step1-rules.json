@@ -1,0 +1,75 @@
+{
+    "firstname": {
+        "required": true,
+        "min": 2,
+        "max": 10,
+        "pattern": "string"
+    },
+    "lastname": {
+        "required": true,
+        "min": 2,
+        "max": 10,
+        "pattern": "string"
+    },
+    "gender": {
+        "required": true,
+        "values": [
+            "Male",
+            "Female"
+        ]
+    },
+    "date-of-birth": {
+        "required": true,
+        "type": "date",
+        "rules": {
+            "year": {
+                "start-year": "1960",
+                "end-year": "2002"
+            }
+        }
+    },
+    "age": {
+        "required": true,
+        "min": 18,
+        "max": 85,
+        "length": false,
+        "pattern": "int"
+    },
+    "nationality": {
+        "required": true,
+        "values": [
+            "Kenyan"
+        ]
+    },
+    "national-id": {
+        "required": true,
+        "min": 6,
+        "max": 10,
+        "pattern": "int",
+        "unique": true,
+        "exists": false,
+        "table": "client_personal_info",
+        "column": "cl_national_id",
+        "method": "nationalId"
+    },
+    "phone-number": {
+        "required": true,
+        "min": 9,
+        "max": 9,
+        "pattern": "int",
+        "unique": true,
+        "exists": false,
+        "table": "client_personal_info",
+        "column": "cl_phone_number",
+        "method": "phoneNumber"
+    },
+    "email": {
+        "required": true,
+        "constant": "email",
+        "unique": true,
+        "exists": false,
+        "table": "client_personal_info",
+        "column": "cl_email",
+        "method": "email"
+    }
+}

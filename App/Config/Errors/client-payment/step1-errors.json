@@ -1,0 +1,23 @@
+{
+    "amount": {
+        "required": "Payment amount is required",
+        "min": "Payment amount cannot be less than 1 ksh",
+        "max": "Payment amount cannot be more than 30000 ksh",
+        "valid-payment": "Payment amount is bellow the deposit amount",
+        "pattern": "Payment amount contains invalid characters. Please use numbers"
+    },
+    "mode": {
+        "required": "Payment mode is required",
+        "values": "Payment mode contains an invalid value"
+    },
+    "transaction-code": {
+        "required": "Transaction code is required",
+        "min": "Transaction code cannot be bellow 10 characters",
+        "max": "Transaction code cannot be more than 10 characters",
+        "pattern": "Transaction code contains an invalid value"
+    },
+    "type": {
+        "required": "Payment type is required",
+        "values": "Payment type contains an invalid value"
+    }
+}

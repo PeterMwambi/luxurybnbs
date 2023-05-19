@@ -1,0 +1,22 @@
+{
+    "expected-checkin-date": {
+        "required": "Your expected date of checking in is required",
+        "start-year": "Expected check in year cannot be before 2023",
+        "end-year": "Expected check in year cannot be after 2023",
+        "start-month": "Expected check in month cannot be before April 2023",
+        "end-month": "Expected check in month cannot be after December 2023"
+    },
+    "expected-checkout-date": {
+        "required": "Your expected date of checking out is required",
+        "start-year": "Expected check out year cannot be before 2023",
+        "end-year": "Expected check out year cannot be after 2023",
+        "start-month": "Expected check out month cannot be before April 2023",
+        "end-month": "Expected check out month cannot be after December 2023",
+        "start-date": "Expected  check out date cannot be earlier than check in date"
+    },
+    "no-of-people": {
+        "required": "Please specify the number of people checking in",
+        "min": "The number of people checking in cannot be bellow 1",
+        "max": "The number of people checkig in cannot be more than 100"
+    }
+}

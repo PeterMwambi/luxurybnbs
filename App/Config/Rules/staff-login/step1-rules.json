@@ -1,0 +1,24 @@
+{
+    "username": {
+        "required": true,
+        "pattern": "string-with-numbers",
+        "unique": true,
+        "exists": true,
+        "table": "staff_account_info",
+        "column": "st_username",
+        "method": "username"
+    },
+    "password": {
+        "required": true,
+        "pattern": "string-with-numbers-and-selected-characters",
+        "unique": true,
+        "exists": true,
+        "identifier": "username",
+        "table": "staff_account_info",
+        "column": {
+            "search": "st_password",
+            "identifier": "st_username"
+        },
+        "method": "password"
+    }
+}

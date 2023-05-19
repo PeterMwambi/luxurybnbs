@@ -1,0 +1,10 @@
+{
+    "pictures": {
+        "file": {
+            "required": "Room image is required",
+            "exists": "Room image already exists",
+            "allowedTypes": "Room image type is invalid. Please use png, jpg, or jpeg",
+            "max": "Room image size is too large. Please use an image bellow 500 kbs"
+        }
+    }
+}

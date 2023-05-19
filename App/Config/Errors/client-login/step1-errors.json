@@ -1,0 +1,13 @@
+{
+    "username": {
+        "required": "Your username is required",
+        "pattern": "Your username is invalid",
+        "unique": "The username you entered was not found"
+    },
+    "password": {
+        "required": "Your password is required",
+        "pattern": "Your password is invalid",
+        "unique": "Account was not found",
+        "exists": "Your password is incorrect"
+    }
+}

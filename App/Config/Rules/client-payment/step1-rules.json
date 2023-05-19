@@ -1,0 +1,28 @@
+{
+    "amount": {
+        "required": true,
+        "min": 1,
+        "max": 30000,
+        "length": false,
+        "pattern": "int"
+    },
+    "mode": {
+        "required": true,
+        "values": [
+            "Mpesa"
+        ]
+    },
+    "transaction-code": {
+        "required": true,
+        "min": 10,
+        "max": 10,
+        "pattern": "string-with-numbers"
+    },
+    "type": {
+        "required": true,
+        "values": [
+            "Deposit",
+            "Full payment"
+        ]
+    }
+}

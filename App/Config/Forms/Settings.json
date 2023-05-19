@@ -1,0 +1,99 @@
+{
+    "staff-registration-form-step-1": {
+        "rules": "staff-registration/step-1",
+        "errors": "staff-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-staff-registration-step-2",
+        "handler": "staff-registration"
+    },
+    "staff-registration-form-step-2": {
+        "rules": "staff-registration/step-2",
+        "errors": "staff-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-staff/registerStaffMember",
+        "nextstep": "complete-setup",
+        "handler": "staff-registration"
+    },
+    "staff-login-form": {
+        "rules": "staff-login/step-1",
+        "errors": "staff-login/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Login was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "login-staff/loginStaffMember",
+        "nextstep": "complete-setup",
+        "handler": "staff-login"
+    },
+    "client-registration-form-step-1": {
+        "rules": "client-registration/step-1",
+        "errors": "client-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-client-registration-step-2",
+        "handler": "staff-registration"
+    },
+    "client-registration-form-step-2": {
+        "rules": "client-registration/step-2",
+        "errors": "client-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-client/registerClient",
+        "nextstep": "complete-setup",
+        "handler": "client-registration"
+    },
+    "client-login-form": {
+        "rules": "client-login/step-1",
+        "errors": "client-login/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Login was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "login-client/loginClient",
+        "nextstep": "complete-setup",
+        "handler": "client-login"
+    },
+    "room-registration-form-step-1": {
+        "rules": "room-registration/step-1",
+        "errors": "room-registration/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 1",
+        "errormessage": "Something went wrong. Please try again later",
+        "nextstep": "go-to-room-registration-step-2",
+        "handler": "room-registration"
+    },
+    "room-registration-form-step-2": {
+        "rules": "room-registration/step-2",
+        "errors": "room-registration/step-2",
+        "method": "storage/storeToCache",
+        "successmessage": "You have successfully completed step 2",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-room/registerRoom",
+        "nextstep": "complete-setup",
+        "handler": "room-registration"
+    },
+    "client-booking-form": {
+        "rules": "client-booking/step-1",
+        "errors": "client-booking/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Room booking successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-client/bookClient",
+        "nextstep": "complete-setup",
+        "handler": "client-booking"
+    },
+    "client-payment-form": {
+        "rules": "client-payment/step-1",
+        "errors": "client-payment/step-1",
+        "method": "storage/storeToCache",
+        "successmessage": "Room payment was successful",
+        "errormessage": "Something went wrong. Please try again later",
+        "commit": "register-client/processPayment",
+        "nextstep": "complete-setup",
+        "handler": "client-payment"
+    }
+}

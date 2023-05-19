@@ -1,0 +1,43 @@
+{
+    "name": {
+        "required": "Room name is required",
+        "min": "Room name cannot be shorter than 10 letters",
+        "max": "Room name cannot be longer than 90 letters",
+        "pattern": "Room name contains invalid characters. Please use letters and numbers",
+        "unique": "Room name has already been registered"
+    },
+    "type": {
+        "required": "Room type is required",
+        "values": "Room type contains an invalid value"
+    },
+    "number": {
+        "required": "Room number is required",
+        "min": "Room number cannot be less than 1",
+        "max": "Room number cannot be more than 100",
+        "pattern": "Room number contains an invalid value. Please use numbers",
+        "unique": "Room number has already been registered"
+    },
+    "price": {
+        "required": "Room price is required",
+        "min": "Room price cannot be less than 300",
+        "max": "Room price cannot be more than 15000",
+        "pattern": "Room price contains an invalid value. Please use numbers",
+        "length": false
+    },
+    "status": {
+        "required": "Room status is required",
+        "values": "Room status contains an invalid value"
+    },
+    "features": {
+        "required": "Room features are required",
+        "min": "Room feature description cannot be shorter than 10 letters",
+        "max": "Room feature description cannot be more than 350 letters",
+        "pattern": "Room feature description contains an invalid value. Please use a combination of leters, numbers, periods(.) and comas(,)"
+    },
+    "description": {
+        "required": "Room description is required",
+        "min": "Room description cannot be shorter than 10 letters",
+        "max": "Room description cannot be longer than 350 letters",
+        "pattern": "Room description contains an invalid value. Please use a combination of leters, numbers, periods(.) and comas(,)"
+    }
+}

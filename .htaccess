@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteBase /projects/luxurybnbs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ app/public/ [QSA,L]
+
+
+# RewriteCond %{HTTP_REFERER} !^$
+
+# RewriteCond %{HTTP_REFERER} !^https?://(.+\.)?example.com [NC]
+# RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
+
+# If you want to display a “blocked” banner in place of the hotlinked image,
+# replace the above rule with:
+# RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+

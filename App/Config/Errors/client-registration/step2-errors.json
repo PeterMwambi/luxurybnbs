@@ -1,0 +1,17 @@
+{
+    "username": {
+        "required": "Your username is required",
+        "pattern": "Your username can only contain letters or numbers",
+        "unique": "Your username has already been registered"
+    },
+    "password": {
+        "required": "Your password is required",
+        "pattern": "Your password can contain only letters, numbers, or @ , & , # characters",
+        "min": "Your password cannot be less than 6 characters",
+        "max": "Your password cannot be more than 30 characters"
+    },
+    "confirm-password": {
+        "required": "Confirm Your password",
+        "matches": "Confirm password does not match password"
+    }
+}

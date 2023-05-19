@@ -1,0 +1,16 @@
+{
+    "pictures": {
+        "file": {
+            "required": true,
+            "exists": false,
+            "allowedTypes": [
+                "png",
+                "jpg",
+                "jpeg"
+            ],
+            "max": 500000
+        },
+        "method": "register-room/registerRoomImages",
+        "uploadDirectory": "app/uploads/rooms/"
+    }
+}

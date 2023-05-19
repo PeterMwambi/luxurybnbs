@@ -1,0 +1,21 @@
+{
+    "username": {
+        "required": true,
+        "pattern": "string-with-numbers",
+        "unique": true,
+        "exists": false,
+        "table": "client_account_info",
+        "column": "cl_username",
+        "method": "username"
+    },
+    "password": {
+        "required": true,
+        "pattern": "string-with-numbers-and-selected-characters",
+        "min": 6,
+        "max": 30
+    },
+    "confirm-password": {
+        "required": true,
+        "matches": "password"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "firstname": {
+        "required": "Your first name is required",
+        "min": "Your first name cannot be shorter than 2 letters",
+        "max": "Your first name cannot be longer than 10 letters",
+        "pattern": "Your first name contains invalid characters. Please use letters without spaces"
+    },
+    "lastname": {
+        "required": "Your last name is required",
+        "min": "Your last name cannot be shorter than 2 letters",
+        "max": "Your last name cannot be longer than 10 letters",
+        "pattern": "Your last name contains invalid characters. Please use letters without spaces"
+    },
+    "gender": {
+        "required": "Your gender is required",
+        "values": "Gender field contains an invalid value"
+    },
+    "date-of-birth": {
+        "required": "Your date of birth is required",
+        "start-year": "Your year of birth can not be earlier than 1960",
+        "end-year": "Your year of birth cannot be later than 2002"
+    },
+    "age": {
+        "required": "Your age is required",
+        "min": "Your age cannot be bellow 18 years",
+        "max": "Your age cannot be more than 85 years",
+        "pattern": "Your age contains invalid characters. Please use numbers without spaces"
+    },
+    "nationality": {
+        "required": "Your nationality is required",
+        "values": "Nationality field contains an invalid value"
+    },
+    "national-id": {
+        "required": "Your national id number is required",
+        "min": "Your national id number cannot be shorter than 6 numbers",
+        "max": "Your national id number cannot be longer than 10 numbers",
+        "pattern": "Your national id number contains invalid characters. Please use numbers without spaces",
+        "unique": "Your national id number has already been registered"
+    },
+    "phone-number": {
+        "required": "Your phone number is required",
+        "min": "Your phone number is invalid",
+        "max": "Your phone number is invalid",
+        "pattern": "Your phone number contains invalid characters. Please use numbers without spaces",
+        "unique": "Your phone number has already been registered"
+    },
+    "email": {
+        "required": "Your email address is required",
+        "constant": "Your email address is invalid",
+        "unique": "Your email address has already been registered"
+    }
+}

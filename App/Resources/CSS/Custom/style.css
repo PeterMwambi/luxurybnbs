@@ -1,0 +1,67 @@
+.luxury-bnb__logo {
+  max-width: 120px;
+  height: 84px;
+}
+
+.mt-md {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+.mt-lg {
+  margin-top: 7rem;
+}
+
+.carousel-image {
+  visibility: hidden;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.v-small {
+  max-width: 10px;
+}
+.md-small {
+  max-width: 15px;
+}
+.small {
+  max-width: 20px;
+}
+.sm-medium {
+  max-width: 25px;
+}
+.medium {
+  max-width: 50px;
+}
+.large {
+  max-width: 100px;
+}
+
+.x-large {
+  max-width: 200px;
+}
+.pointer {
+  cursor: pointer;
+}
+.resize {
+  max-width: 550px;
+  background-position: center center;
+}
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.left-3 {
+  left: -2.5rem !important;
+  right: 2.5rem !important;
+}
+
+.left-1 {
+  right: 5.75rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,27 @@
+{
+    "username": {
+        "required": "Staff member's username is required",
+        "pattern": "Staff member's username can only contain letters or numbers",
+        "unique": "Staff member's username has already been registered"
+    },
+    "password": {
+        "required": "Staff member's password is required",
+        "pattern": "Staff member's password can contain only letters, numbers, or @ , & , # characters",
+        "min": "Staff member's password cannot be less than 6 characters",
+        "max": "Staff member's password cannot be more than 30 characters"
+    },
+    "confirm-password": {
+        "required": "Confirm the staff member's password",
+        "matches": "Staff member's confirm password does not match password"
+    },
+    "auth-level": {
+        "required": "Staff members authentication level is required",
+        "values": "Authentication level contains an invalid value"
+    },
+    "role": {
+        "required": "Staff member's role is required",
+        "min": "Staff member's role cannot be shorter than 7 letters",
+        "max": "Staff mebmer's role cannot be longer than 10 letters",
+        "values": "Role field contains an invalid value"
+    }
+}

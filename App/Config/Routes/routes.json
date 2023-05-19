@@ -1,0 +1,111 @@
+{
+    "home": {
+        "methods": [
+            "GET"
+        ],
+        "function": "Homepage"
+    },
+    "logout": {
+        "methods": [
+            "GET"
+        ],
+        "function": "Logout"
+    },
+    "staff-home": {
+        "methods": [
+            "GET"
+        ],
+        "function": "StaffViews"
+    },
+    "sandbox": {
+        "methods": [
+            "GET"
+        ],
+        "function": "Sandbox"
+    },
+    "room-registration": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "StaffForms"
+    },
+    "view-rooms": {
+        "methods": [
+            "GET"
+        ],
+        "function": "StaffViews"
+    },
+    "view-bookings": {
+        "methods": [
+            "GET"
+        ],
+        "function": "StaffViews"
+    },
+    "view-payments": {
+        "methods": [
+            "GET"
+        ],
+        "function": "StaffViews"
+    },
+    "staff-registration": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "StaffForms"
+    },
+    "staff-login": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "StaffForms"
+    },
+    "client-registration": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "ClientForms"
+    },
+    "client-login": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "ClientForms"
+    },
+    "client-booking": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "ClientForms"
+    },
+    "client-bookings": {
+        "methods": [
+            "GET"
+        ],
+        "function": "ClientViews"
+    },
+    "client-payment": {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "function": "ClientForms"
+    },
+    "client-payments": {
+        "methods": [
+            "GET"
+        ],
+        "function": "ClientViews"
+    },
+    "client-discounts": {
+        "methods": [
+            "GET"
+        ],
+        "function": "ClientViews"
+    }
+}

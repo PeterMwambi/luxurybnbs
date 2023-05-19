@@ -1,0 +1,13 @@
+{
+    "username": {
+        "required": "Staff member's username is required",
+        "pattern": "Staff members username is invalid",
+        "unique": "The username you entered was not found"
+    },
+    "password": {
+        "required": "Staff members password is required",
+        "pattern": "Staff member's password is invalid",
+        "unique": "Account was not found",
+        "exists": "Your password is incorrect"
+    }
+}

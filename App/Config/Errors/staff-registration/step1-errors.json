@@ -1,0 +1,52 @@
+{
+    "firstname": {
+        "required": "Staff member's first name is required",
+        "min": "Staff member's first name cannot be shorter than 2 letters",
+        "max": "Staff member's first name cannot be longer than 10 letters",
+        "pattern": "Staff member's first name contains invalid characters. Please use letters without spaces"
+    },
+    "lastname": {
+        "required": "Staff member's last name is required",
+        "min": "Staff member's last name cannot be shorter than 2 letters",
+        "max": "Staff member's last name cannot be longer than 10 letters",
+        "pattern": "Staff member's last name contains invalid characters. Please use letters without spaces"
+    },
+    "gender": {
+        "required": "Staff member's gender is required",
+        "values": "Gender field contains an invalid value"
+    },
+    "date-of-birth": {
+        "required": "Staff member's date of birth is required",
+        "start-year": "Staff member's year of birth can not be earlier than 1960",
+        "end-year": "Staff member's year of birth cannot be later than 2002"
+    },
+    "age": {
+        "required": "Staff member's age is required",
+        "min": "Staff member's age cannot be bellow 18 years",
+        "max": "Staff member's age cannot be more than 85 years",
+        "pattern": "Staff member's age contains invalid characters. Please use numbers without spaces"
+    },
+    "nationality": {
+        "required": "Staff member's nationality is required",
+        "values": "Nationality field contains an invalid value"
+    },
+    "national-id": {
+        "required": "Staff member's national id number is required",
+        "min": "Staff member's national id number cannot be shorter than 6 numbers",
+        "max": "Staff member's national id number cannot be longer than 10 numbers",
+        "pattern": "Staff member's national id number contains invalid characters. Please use numbers without spaces",
+        "unique": "Staff member's national id number has already been registered"
+    },
+    "phone-number": {
+        "required": "Staff member's phone number is required",
+        "min": "Staff member's phone number is invalid",
+        "max": "Staff member's phone number is invalid",
+        "pattern": "Staff member's phone number contains invalid characters. Please use numbers without spaces",
+        "unique": "Staff member's phone number has already been registered"
+    },
+    "email": {
+        "required": "Staff member's email address is required",
+        "constant": "Staff member's email address is invalid",
+        "unique": "Staff member's email address has already been registered"
+    }
+}

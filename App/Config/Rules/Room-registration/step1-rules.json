@@ -1,0 +1,60 @@
+{
+    "name": {
+        "required": true,
+        "min": 10,
+        "max": 90,
+        "pattern": "string-with-numbers-and-spaces",
+        "unique": true,
+        "exists": false,
+        "table": "rooms",
+        "column": "rm_name",
+        "method": "roomName"
+    },
+    "type": {
+        "required": true,
+        "values": [
+            "Single room",
+            "Double room",
+            "Executive room"
+        ]
+    },
+    "number": {
+        "required": true,
+        "min": 1,
+        "max": 1000,
+        "length": false,
+        "unique": true,
+        "exists": false,
+        "pattern": "int",
+        "table": "rooms",
+        "column": "rm_number",
+        "method": "roomNumber"
+    },
+    "price": {
+        "required": true,
+        "min": 300,
+        "max": 15000,
+        "pattern": "int",
+        "length": false
+    },
+    "status": {
+        "required": true,
+        "values": [
+            "Available",
+            "Booked",
+            "Occupied"
+        ]
+    },
+    "features": {
+        "required": true,
+        "min": 10,
+        "max": 350,
+        "pattern": "string-with-numbers-selected-characters-and-spaces"
+    },
+    "description": {
+        "required": true,
+        "min": 10,
+        "max": 350,
+        "pattern": "string-with-numbers-selected-characters-and-spaces"
+    }
+}

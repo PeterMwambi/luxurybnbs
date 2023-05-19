@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  /* small width devices */
+  .welcome-text-1 {
+    font-size: larger;
+  }
+  .content-for-small-width-screens {
+    display: block;
+  }
+  .content-for-large-width-screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .content-for-small-width-screens {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .content-for-small-width-screens {
+    display: none;
+  }
+}

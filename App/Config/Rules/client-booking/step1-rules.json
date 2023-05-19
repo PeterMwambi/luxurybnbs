@@ -1,0 +1,39 @@
+{
+    "expected-checkin-date": {
+        "required": true,
+        "type": "date",
+        "rules": {
+            "year": {
+                "start-year": "2023",
+                "end-year": "2023"
+            },
+            "month": {
+                "start-month": "04",
+                "end-month": "12"
+            }
+        }
+    },
+    "expected-checkout-date": {
+        "required": true,
+        "type": "date",
+        "rules": {
+            "year": {
+                "start-year": "2023",
+                "end-year": "2023"
+            },
+            "month": {
+                "start-month": "04",
+                "end-month": "12"
+            },
+            "date": {
+                "start-date": "expected-checkin-date"
+            }
+        }
+    },
+    "no-of-people": {
+        "required": true,
+        "length": false,
+        "min": 1,
+        "max": 100
+    }
+}

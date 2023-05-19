@@ -1,0 +1,12 @@
+{
+    "STAFF_REGISTRATION_FORM_STEP_1": "staff-registration-form-step-1",
+    "STAFF_REGISTRATION_FORM_STEP_2": "staff-registration-form-step-2",
+    "STAFF_LOGIN_FORM": "staff-login-form",
+    "CLIENT_REGISTRATION_FORM_STEP_1": "client-registration-form-step-1",
+    "CLIENT_REGISTRATION_FORM_STEP_2": "client-registration-form-step-2",
+    "CLIENT_LOGIN_FORM": "client-login-form",
+    "ROOM_REGISTRATION_FORM_STEP_1": "room-registration-form-step-1",
+    "ROOM_REGISTRATION_FORM_STEP_2": "room-registration-form-step-2",
+    "CLIENT_BOOKING_FORM": "client-booking-form",
+    "CLIENT_PAYMENT_FORM": "client-payment-form"
+}
